@@ -10,6 +10,14 @@ public:
 		cout << "\nNama = " << nama;
 	}
 };
+
+class Matakuliah {
+private:
+	int sks;
+	string code;
+	string namaMK;
+public:
+};
 int main()
 {
    
