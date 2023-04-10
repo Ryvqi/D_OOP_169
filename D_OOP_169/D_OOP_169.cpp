@@ -18,7 +18,7 @@ private:
 	string namaMK;
 public:
 	void inputMK() {
-		
+
 		cout << "\nMasukan Jumlah SKS= ";
 		cin >> sks;
 		cout << "\nMasukan Kode MK= ";
@@ -34,7 +34,19 @@ public:
 
 	}
 };
+
 int main()
 {
-   
+	Mahasiswa mhs;
+	Matakuliah MK;
+
+	cout << "Masukan NIM= ";
+	cin >> mhs.nim;
+	cout << "Masukan Nama= ";
+	cin >> mhs.nama;
+
+	MK.inputMK();
+	MK.tampilMK();
+	mhs.tampil();
+
 }
