@@ -14,9 +14,25 @@ public:
 class Matakuliah {
 private:
 	int sks;
-	string code;
+	string kode;
 	string namaMK;
 public:
+	void inputMK() {
+		
+		cout << "\nMasukan Jumlah SKS= ";
+		cin >> sks;
+		cout << "\nMasukan Kode MK= ";
+		cin >> kode;
+		cout << "\nMasukan Nama MK= ";
+		cin >> namaMK;
+	}
+
+	void tampilMK() {
+		cout << "\nJumlah sks= " << sks;
+		cout << "\nKode MK= " << kode;
+		cout << "\nNama MK= " << namaMK << endl;
+
+	}
 };
 int main()
 {
