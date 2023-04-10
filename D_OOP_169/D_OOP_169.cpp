@@ -1,11 +1,14 @@
 #include <iostream>
-using namesapce std;
+using namespace std;
 
 class Mahasiswa {
 public:
 	int nim;
 	string nama;
-	void 
+	void tampil() {
+		cout << "NIM = " << nim;
+		cout << "\nNama = " << nama;
+	}
 };
 int main()
 {
